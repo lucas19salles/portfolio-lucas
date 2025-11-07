@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul a {
+  font-size: 1.4rem;
+  color: #dedede;
+  padding: 8px 12px;
+  position: relative;
+}
+
+nav ul a::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-hover);
+  position: absolute;
+  top: 40px;
+  left: 54px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+nav ul a:hover::after {
+  transform: scaleX(1);
+}

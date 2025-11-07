@@ -1,0 +1,45 @@
+section {
+  padding: 20px 40px;
+  position: relative;
+}
+#profile-info {
+  display: flex;
+}
+
+#profile {
+  flex: 1;
+}
+
+#descreption {
+  flex: 1;
+}
+
+.profile-name h1 {
+  font-size: 4rem;
+}
+
+.profile-name {
+  position: relative;
+  z-index: 2;
+}
+
+.profile-name h1 span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-hover);
+  margin-left: 4px;
+}
+
+.profile-avatar img {
+  position: absolute;
+  top: -40px;
+  left: 240px;
+  width: 280px;
+  z-index: 1;
+}
+
+.redes-sociais {
+  margin-top: 40px;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #212121;
+  --color-hover: #9250f7;
+  --color-text: #dedede;
+  --font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--bg-color);
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-hover);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 20px auto 60px auto;
+}
