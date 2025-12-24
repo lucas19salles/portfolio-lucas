@@ -86,7 +86,14 @@ header {
   h2 {
     color: #fefefe;
     margin-bottom: 8px;
-    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
   }
 
   .redes {
