@@ -4,35 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lucas Salles - Desenvolvedor frontEnd</title>
-  <!-- Link do Css -->
-  <link rel="stylesheet" href="./styles/style.css">
+  <title>Desevolvendor FullStack - Lucas Salles</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Link do Favicon -->
   <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
 
-  <!-- Link do Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <img src="./assets/logo.svg" alt="Logo Lucas Salles">
+  <header class="container">
+    <nav class="nav-bar">
+      <img class="logo" src="./assets/logo.svg" alt="Logotipo Lucas Salles">
 
       <button class="btn btn-mobile"><i class="fa-solid fa-bars"></i></button>
-      <ul id="nav-links">
-        <li><a href="#about">Quem Sou</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#hardskills">Habilidades</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
 
-      <a href="#" class="btn btn-default">Contato</a>
+      <ul class="link-mobile">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre Mim</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Habilidades</a></li>
+        <li><a href="#">Contatos</a></li>
+      </ul>
     </nav>
   </header>
 
-  <script src="./js/script.js"></script>
+  <section class="main">
+    <div>
+      <h1>Lucas Salles</h1>
+      <h2>Desevolvendor FullStack</h2>
+      <button class="call-on-action">Veja meus projetos 👇🏻</button>
+      <div class="redes">
+        <img src="./assets/icones/github-logo.svg" alt="github-logo">
+        <img src="./assets/icones/linkedin-logo.svg" alt="linkedin-logo">
+      </div>
+    </div>
+  </section>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
