@@ -94,7 +94,7 @@ header {
     padding-left: 16%;
 
     img {
-      width: 48px;
+      width: 38px;
     }
   }
 
@@ -143,6 +143,10 @@ header {
 
     .redes {
       padding-left: 18%;
+
+      img {
+        width: 48px;
+      }
     }
 
     .call-on-action {
