@@ -10,6 +10,11 @@ body {
   color: var(--text-second);
 }
 
+.container {
+  margin: 0 auto;
+  padding-inline: 4rem;
+}
+
 .btn {
   padding: 10px 20px;
   border: none;

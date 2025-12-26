@@ -13,23 +13,25 @@
 </head>
 
 <body>
-  <header class="container">
-    <nav class="nav-bar">
-      <img class="logo" src="./assets/logo.svg" alt="Logotipo Lucas Salles">
+  <header>
+    <div class="container">
+      <nav class="nav-bar">
+        <img class="logo" src="./assets/logo.svg" alt="Logotipo Lucas Salles">
 
-      <button class="btn btn-mobile"><i class="fa-solid fa-bars"></i></button>
+        <button class="btn btn-mobile"><i class="fa-solid fa-bars"></i></button>
 
-      <ul class="link-mobile">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre Mim</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Habilidades</a></li>
-        <li><a href="#">Contatos</a></li>
-      </ul>
-    </nav>
+        <ul class="link-mobile">
+          <li><a href="#home" class="link">Home</a></li>
+          <li><a href="#about" class="link">Sobre Mim</a></li>
+          <li><a href="#projects" class="link">Projetos</a></li>
+          <li><a href="#skills" class="link">Habilidades</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section class="main">
+  <section class="main" id="home">
     <div>
       <h1>Lucas Salles</h1>
       <h2>Desevolvendor FullStack</h2>
@@ -42,7 +44,7 @@
   </section>
 
   <main>
-    <section class="perfil">
+    <section class="perfil" id="about">
       <h2>Sobre mim</h2>
       <div class="info-about">
         <div class="avatar">

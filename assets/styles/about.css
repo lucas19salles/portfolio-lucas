@@ -1,7 +1,7 @@
 .perfil h2 {
   font-size: 2.6rem;
   text-align: center;
-  margin-bottom: 28px;
+  margin-block: 10px;
 }
 
 .info-about {
@@ -11,7 +11,6 @@
   text-align: center;
 
   .about {
-    width: 70%;
     align-self: center;
     flex: 2;
 
@@ -27,15 +26,25 @@
   }
 
   .avatar {
-    width: 3%;
     display: flex;
     justify-content: center;
     flex: 1;
     margin: 0 auto;
+    animation: avatar 5s ease-in-out infinite;
 
     img {
       width: 200px;
     }
+  }
+}
+
+@keyframes avatar {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
   }
 }
 
